@@ -9,19 +9,19 @@ sudoku_board_row_1_spot_6 = 0
 sudoku_board_row_1_spot_7 = 0
 sudoku_board_row_1_spot_8 = 0
 sudoku_board_row_1_spot_9 = 0
+num_place = 0
 
-sudoku_board_row_1 = [[sudoku_board_row_1_spot_1, sudoku_board_row_1_spot_2, sudoku_board_row_1_spot_3] , [sudoku_board_row_1_spot_4, sudoku_board_row_1_spot_5, sudoku_board_row_1_spot_6] , [sudoku_board_row_1_spot_7, sudoku_board_row_1_spot_8, sudoku_board_row_1_spot_9]]
+sudoku_board_row_1_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 sudoku_board_row_1_Numbers = []
 
-while len(sudoku_board_row_1_Numbers)!= 9:
-    sudoku_board_row_1_Numbers.append(random.randint(1,9))
-  if sudoku_board_row_1_Numbers[0] == sudoku_board_row_1_Numbers[1]:
-    sudoku_board_row_1_Numbers.pop(0)
-  else:
-    break
+while len(sudoku_board_row_1_Numbers)!= 9:  
+  num_place =  random.choice(sudoku_board_row_1_int)
+  sudoku_board_row_1_Numbers.append(num_place)
+  sudoku_board_row_1_int.remove(num_place)
+#sudoku_board_row_1_Numbers.append(random.choice(sudoku_board_row_1_int))
 
-print(sudoku_board_row_1_Numbers[0])
+#print(sudoku_board_row_1_Numbers[0]) #test
 
 sudoku_board_row_1_spot_1 = sudoku_board_row_1_Numbers[0]
 sudoku_board_row_1_spot_2 = sudoku_board_row_1_Numbers[1]
@@ -33,5 +33,8 @@ sudoku_board_row_1_spot_7 = sudoku_board_row_1_Numbers[6]
 sudoku_board_row_1_spot_8 = sudoku_board_row_1_Numbers[7]
 sudoku_board_row_1_spot_9 = sudoku_board_row_1_Numbers[8]
 
-print(sudoku_board_row_1_Numbers)
+sudoku_board_row_1 = [[sudoku_board_row_1_spot_1, sudoku_board_row_1_spot_2, sudoku_board_row_1_spot_3] , [sudoku_board_row_1_spot_4, sudoku_board_row_1_spot_5, sudoku_board_row_1_spot_6] , [sudoku_board_row_1_spot_7, sudoku_board_row_1_spot_8, sudoku_board_row_1_spot_9]]
+
+#print(sudoku_board_row_1_Numbers) #test
 print (sudoku_board_row_1)
+#print(sudoku_board_row_1_spot_1) #test
