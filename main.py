@@ -35,20 +35,116 @@ sudoku_board_row_3_spot_8 = 0
 sudoku_board_row_3_spot_9 = 0
 num_place_3= 0
 
-first_square_break = "__________________________________"
+#row four numbers
+sudoku_board_row_4_spot_1 = 0
+sudoku_board_row_4_spot_2 = 0
+sudoku_board_row_4_spot_3 = 0
+sudoku_board_row_4_spot_4 = 0
+sudoku_board_row_4_spot_5 = 0
+sudoku_board_row_4_spot_6 = 0
+sudoku_board_row_4_spot_7 = 0
+sudoku_board_row_4_spot_8 = 0
+sudoku_board_row_4_spot_9 = 0
+num_place_4= 0
+
+#row five numbers
+sudoku_board_row_5_spot_1 = 0
+sudoku_board_row_5_spot_2 = 0
+sudoku_board_row_5_spot_3 = 0
+sudoku_board_row_5_spot_4 = 0
+sudoku_board_row_5_spot_5 = 0
+sudoku_board_row_5_spot_6 = 0
+sudoku_board_row_5_spot_7 = 0
+sudoku_board_row_5_spot_8 = 0
+sudoku_board_row_5_spot_9 = 0
+num_place_5= 0
+
+#row six numbers
+sudoku_board_row_6_spot_1 = 0
+sudoku_board_row_6_spot_2 = 0
+sudoku_board_row_6_spot_3 = 0
+sudoku_board_row_6_spot_4 = 0
+sudoku_board_row_6_spot_5 = 0
+sudoku_board_row_6_spot_6 = 0
+sudoku_board_row_6_spot_7 = 0
+sudoku_board_row_6_spot_8 = 0
+sudoku_board_row_6_spot_9 = 0
+num_place_6= 0
+
+#row seven numbers
+sudoku_board_row_7_spot_1 = 0
+sudoku_board_row_7_spot_2 = 0
+sudoku_board_row_7_spot_3 = 0
+sudoku_board_row_7_spot_4 = 0
+sudoku_board_row_7_spot_5 = 0
+sudoku_board_row_7_spot_6 = 0
+sudoku_board_row_7_spot_7 = 0
+sudoku_board_row_7_spot_8 = 0
+sudoku_board_row_7_spot_9 = 0
+num_place_7= 0
+
+#row eight numbers
+sudoku_board_row_8_spot_1 = 0
+sudoku_board_row_8_spot_2 = 0
+sudoku_board_row_8_spot_3 = 0
+sudoku_board_row_8_spot_4 = 0
+sudoku_board_row_8_spot_5 = 0
+sudoku_board_row_8_spot_6 = 0
+sudoku_board_row_8_spot_7 = 0
+sudoku_board_row_8_spot_8 = 0
+sudoku_board_row_8_spot_9 = 0
+num_place_8= 0
+
+#row nine numbers
+sudoku_board_row_9_spot_1 = 0
+sudoku_board_row_9_spot_2 = 0
+sudoku_board_row_9_spot_3 = 0
+sudoku_board_row_9_spot_4 = 0
+sudoku_board_row_9_spot_5 = 0
+sudoku_board_row_9_spot_6 = 0
+sudoku_board_row_9_spot_7 = 0
+sudoku_board_row_9_spot_8 = 0
+sudoku_board_row_9_spot_9 = 0
+num_place_9= 0
+
+square_break = "__________________________________"
 
 sudoku_board_row_1_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 sudoku_board_row_2_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 sudoku_board_row_3_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+sudoku_board_column_1_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_column_2_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_column_3_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_column_4_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_column_5_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_column_6_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_column_7_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_column_8_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_column_9_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+
 sudoku_board_square_1_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 sudoku_board_square_2_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 sudoku_board_square_3_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_square_4_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_square_5_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_square_6_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_square_7_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_square_8_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sudoku_board_square_9_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 square_number= 0
 sudoku_board_row_1_Numbers = []
 sudoku_board_row_2_Numbers = []
 sudoku_board_row_3_Numbers = []
+sudoku_board_row_4_Numbers = []
+sudoku_board_row_5_Numbers = []
+sudoku_board_row_6_Numbers = []
+sudoku_board_row_7_Numbers = []
+sudoku_board_row_8_Numbers = []
+sudoku_board_row_9_Numbers = []
 
 while len(sudoku_board_row_1_Numbers)!= 9:  
   num_place_1 =  random.choice(sudoku_board_row_1_int)
@@ -96,6 +192,7 @@ while len(sudoku_board_row_3_Numbers)!= 9:
     sudoku_board_row_3_Numbers.append(num_place_3)
     sudoku_board_square_3_int.remove(num_place_3)
 
+
 #print(sudoku_board_row_1_Numbers[0]) #test
 
 sudoku_board_row_1_spot_1 = sudoku_board_row_1_Numbers[0]
@@ -139,8 +236,8 @@ sudoku_board_row_3 = [[sudoku_board_row_3_spot_1, sudoku_board_row_3_spot_2, sud
 print (sudoku_board_row_1)
 print (sudoku_board_row_2)
 print (sudoku_board_row_3)
-print(first_square_break)
-""""
+print(square_break)
+"""
 print (sudoku_board_square_1_int)
 print (sudoku_board_square_2_int)
 print (sudoku_board_square_3_int)
